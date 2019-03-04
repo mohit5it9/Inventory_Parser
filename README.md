@@ -12,3 +12,4 @@ Based on the type of the file, it will read and parse the file by the appropriat
 
 The database schema is same as defined in the problem statement. with (productId and supplierId) being the primary key.
 
+Further clarifications of the design is addressed as code comments in the appropritate files!
