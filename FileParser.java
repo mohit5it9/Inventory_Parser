@@ -1,0 +1,25 @@
+public class FileParser {
+    String supplierId;
+    public fileParser(File file) {
+      // will set the supplierId here from fileName
+    }
+   
+    private string passDelimiter(String type) {
+        // for each file type pass corresponding delimiter, for eg for csv pass ",".
+    }
+    
+    private void writeToDb( String productId, int quantity) {
+            //query to store supplier id, product id and quantity to our inventory table.
+            //supplier id is retrieved from constructor.
+    }
+    public void parse() {
+        // will read the file from reader like BufferReader.
+        
+        // we will use delimiter returned by passDelimiter function to split the data across columns
+        
+        // We will store the index of "productId" and "quantity" by parsing the first line, then we will parse all the lines one by one
+        // and extract the product_id and quantity from the index derived from parsing first line. While parsing each line, we will 
+        // call writeToDB() method that runs a query and stores the product_id and quantity as argument.
+    }
+
+}
